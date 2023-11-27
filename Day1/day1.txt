@@ -1,0 +1,51 @@
+Topics Covered : 
+-What is React? 
+-Setting up a development environment.
+-What is a React component?
+
+What is React?
+React is a popular JavaScript library for building user interfaces. It was developed by Jordan Walke, a software engineer at Facebook, and is widely used for creating dynamic and interactive web applications. React makes it easier to manage the state of your application, handle user interactions, and efficiently update the UI when data changes. It follows a component-based architecture, allowing you to build complex UIs by composing reusable components.
+
+Why was react needed?
+React was created because building complex user interfaces using just plain JavaScript can become messy and hard to manage as projects grow. React makes this easier by providing a structured way to create user interfaces.
+Imagine you're building a house with lego bricks. JavaScript is like having a huge pile of lego pieces, and you need to figure out how to assemble them into a house from scratch. React, on the other hand, gives you a set of pre-designed lego components (like doors, windows, and walls) that you can easily snap together to build your house. This makes building and maintaining the house much simpler and less error-prone.
+So, React is like a set of tools and rules that help you build web interfaces more efficiently and maintain them as they grow, without starting from scratch every time.
+
+React's declarative approach
+Think of React's declarative approach as writing a to-do list for a personal assistant. In an imperative task delegation, you'd specify detailed instructions for each task, like, "Go to the store, buy milk, check the expiry date, and return home." You're managing every task step by step.
+With React, you act like a project manager. You create a high-level task list, saying, "I need groceries from the store," and your assistant handles the logistics, deciding the best route, checking for discounts, and ensuring everything is brought back. You're focused on what needs to be done, not micromanaging the process.
+
+In this task delegation analogy, React allows you to outline the desired tasks (UI state) without getting bogged down in the specifics (DOM updates). When your shopping list (data) changes, React efficiently manages the execution of tasks (UI updates), making sure your web app stays organized and efficient. It's like having a reliable assistant who takes care of the details, making your coding more efficient and your web app management hassle-free.
+
+Setting up a Development Environment
+Before we dive into React, it's essential to set up your development environment. You'll need Node.js and npm (Node Package Manager) installed.
+---------------------------------------------------
+If you haven't already, head over to the official websites to download and install them:
+Node.js: https://nodejs.org
+npm: https://npmjs.com/get-npm
+----------------------------------------------------
+STEP1:
+Once you have Node.js and npm installed, you can use npm to install Create React App, a tool that sets up a new React project with a basic configuration:
+npm install -g create-react-app
+
+STEP 2:
+npx create-react-app demo_project
+(usually takes a bit time)
+
+STEP 3:
+cd demo_project 
+npm start
+(This will create a new React application and start a development server.)
+
+Navigate to the src directory and open the App.js file. You'll see your first React component there. You can edit it to customise your app's content.
+
+
+
+What is a React Component?
+
+For now in simpler words, a component is a reusable piece of user interface that can be created as a function (functional component) or as a class (class component).
+
+Why Components?
+Components in React make it easier to manage and organise your code because you can create, update, and reuse them as needed.
+
+  
